@@ -28,7 +28,7 @@ Repositorio para proyecto de clase
  
 -Entorno de desarrollo: 
 	-Visual Studio Code 
-	-Material Design de Angular
+	-Bootstrap
 	-Angular
 	-MySql
 	-Xampp
