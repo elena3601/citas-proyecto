@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-citas.component.css']
 })
 export class ListCitasComponent implements OnInit {
-
+@input() listadoCitas: any;
+  @Output() deleteCita = new EventEmitter<number>();
   constructor() { }
 
   ngOnInit(): void {
   }
-
+eliminarCIta(index: number) {
+  this.deleteCita.emit(index);
+}
 }
