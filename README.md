@@ -51,6 +51,25 @@ Repositorio para proyecto de clase
 - ![WhatsApp Image 2022-03-24 at 7 55 30 PM](https://user-images.githubusercontent.com/77304438/160256252-470a7c89-3312-4c7c-b258-d55d1c4dd311.jpeg)
 - Login
 - ![WhatsApp Image 2022-03-24 at 8 16 56 PM](https://user-images.githubusercontent.com/77304438/160256253-c2ccce33-9ef9-4e32-ac19-a12a9755fe39.jpeg)
+# propuesta Back-end
+Editor de texto 
+Visual Studio Code es un editor de texto plano desarrollado por Microsoft totalmente gratuito y de código abierto para ofrecer a los usuarios una herramienta de programación avanzada como alternativa al Bloc de Notas. Este editor está escrito totalmente en Electron, un framework utilizado para unir Chromium y Node.
+
+                                  Node js
+Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google.
+
+JavaScript
+avaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,  basado en prototipos, imperativo, débilmente tipado y dinámico. 
+
+	MysQl	
+
+MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos
+
+Bootstrap
+Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
+
+Angular
+Angular es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
