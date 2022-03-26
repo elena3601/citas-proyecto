@@ -1,22 +1,3 @@
-# Propuesta del diseño de la base de datos
-- ![modelo de base de datos](https://user-images.githubusercontent.com/77304407/160256801-e453e393-5966-4233-88b4-9de08ff0e7d1.png)
-# Componentes principales
--Crear cita
--Listar cita
--Dashboard
--Listar Usuarios
-# Propuesta de wireframe para el proyecto
-- Listar usuarios
-- ![WhatsApp Image 2022-03-24 at 7 21 58 PM](https://user-images.githubusercontent.com/77304438/160256249-c76a2045-b9e4-4fe1-8b96-f1f3b6628c94.jpeg)
-- Formulario para agregar o editar usuario
-- ![WhatsApp Image 2022-03-24 at 7 23 09 PM](https://user-images.githubusercontent.com/77304438/160256250-b41e4258-db54-470a-94ff-3ec7351fc634.jpeg)
-- Mensaje de advertencia
-- ![WhatsApp Image 2022-03-24 at 7 24 53 PM](https://user-images.githubusercontent.com/77304438/160256251-f8a24bc9-84f4-481e-b726-2f191bfb317e.jpeg)
-- Agendar y listar citas
-- ![WhatsApp Image 2022-03-24 at 7 55 30 PM](https://user-images.githubusercontent.com/77304438/160256252-470a7c89-3312-4c7c-b258-d55d1c4dd311.jpeg)
-- Login
-- ![WhatsApp Image 2022-03-24 at 8 16 56 PM](https://user-images.githubusercontent.com/77304438/160256253-c2ccce33-9ef9-4e32-ac19-a12a9755fe39.jpeg)
-
 # Citasonline
 Repositorio para proyecto de clase
 
@@ -51,6 +32,26 @@ Repositorio para proyecto de clase
 	-Angular
 	-MySql
 	-Xampp
+
+# Propuesta del diseño de la base de datos
+- ![modelo de base de datos](https://user-images.githubusercontent.com/77304407/160256801-e453e393-5966-4233-88b4-9de08ff0e7d1.png)
+# Componentes principales
+-Crear cita
+-Listar cita
+-Dashboard
+-Listar Usuarios
+# Propuesta de wireframe para el proyecto
+- Listar usuarios
+- ![WhatsApp Image 2022-03-24 at 7 21 58 PM](https://user-images.githubusercontent.com/77304438/160256249-c76a2045-b9e4-4fe1-8b96-f1f3b6628c94.jpeg)
+- Formulario para agregar o editar usuario
+- ![WhatsApp Image 2022-03-24 at 7 23 09 PM](https://user-images.githubusercontent.com/77304438/160256250-b41e4258-db54-470a-94ff-3ec7351fc634.jpeg)
+- Mensaje de advertencia
+- ![WhatsApp Image 2022-03-24 at 7 24 53 PM](https://user-images.githubusercontent.com/77304438/160256251-f8a24bc9-84f4-481e-b726-2f191bfb317e.jpeg)
+- Agendar y listar citas
+- ![WhatsApp Image 2022-03-24 at 7 55 30 PM](https://user-images.githubusercontent.com/77304438/160256252-470a7c89-3312-4c7c-b258-d55d1c4dd311.jpeg)
+- Login
+- ![WhatsApp Image 2022-03-24 at 8 16 56 PM](https://user-images.githubusercontent.com/77304438/160256253-c2ccce33-9ef9-4e32-ac19-a12a9755fe39.jpeg)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
