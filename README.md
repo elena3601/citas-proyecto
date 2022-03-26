@@ -1,8 +1,6 @@
 - Propuesta del diseño de la base de datos
 - ![modelo de base de datos](https://user-images.githubusercontent.com/77304407/160256801-e453e393-5966-4233-88b4-9de08ff0e7d1.png)
--
-<h1>Propuesta de wireframe para el proyecto</h1>
-- 
+# Propuesta de wireframe para el proyecto
 - Listar usuarios
 - ![WhatsApp Image 2022-03-24 at 7 21 58 PM](https://user-images.githubusercontent.com/77304438/160256249-c76a2045-b9e4-4fe1-8b96-f1f3b6628c94.jpeg)
 - Formulario para agregar o editar usuario
