@@ -1,6 +1,6 @@
 # Propuesta del diseño de la base de datos
 - ![modelo de base de datos](https://user-images.githubusercontent.com/77304407/160256801-e453e393-5966-4233-88b4-9de08ff0e7d1.png)
-#Componentes principales
+# Componentes principales
 -Crear cita
 -Listar cita
 -Dashboard
