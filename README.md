@@ -16,10 +16,10 @@ Repositorio para proyecto de clase
   -Usuario administrador
  
 -Funcionalidades:
-  -Agendar citas en línea
-  -Registro de usuarios 
-  -Administración de usuarios 
-  -Establecer responsables 
+-Agendar citas
+-El administrador sera quien asigne citas a los usuarios
+-Establecer responsables
+  
 	-CRUD Operaciones fundamentales de aplicaciones persistentes en sistemas de bases de datos: 
 		Crear registros 
 		Leer registros 
