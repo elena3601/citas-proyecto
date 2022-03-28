@@ -130,6 +130,7 @@ Enlasando a tituloClass en CSS
 
 Modelo de Formulario a utilizar (código fuente).. 
 
+  
 <h5 class="card-title text-center">Agregar Cita</h5>
 
         <div *ngIf ='formularioIncorrecto' class ='text-center'>
@@ -169,8 +170,8 @@ Modelo de como se vería el formulario ya enviado para agendar..
         <p class="card-text"><span>Asunto: </span>{{ cita.asunto}}</p>
        
     </div>
-blob:https://web.whatsapp.com/c31a9d13-ee15-4fd1-9aa5-da220e7cf1f7
-
+      </div>
+    
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
