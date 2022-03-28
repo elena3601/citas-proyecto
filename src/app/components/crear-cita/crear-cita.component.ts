@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Component, Output, EventEmitter, OnInit } from '@angular/core';
+=======
+import { Component, OnInit } from '@angular/core';
+>>>>>>> 206594ba0dacb8752d71801d40773cde1dd3cf67
 
 @Component({
   selector: 'app-crear-cita',
@@ -14,8 +18,11 @@ export class CrearCitaComponent implements OnInit {
 
   formularioIncorrecto = false;
 
+<<<<<<< HEAD
   @Output() nuevaCita = new EventEmitter<any>();
 
+=======
+>>>>>>> 206594ba0dacb8752d71801d40773cde1dd3cf67
   constructor() { }
 
   ngOnInit(): void {
@@ -35,7 +42,10 @@ export class CrearCitaComponent implements OnInit {
       asunto: this.asunto
     }
     console.log (CITA);
+<<<<<<< HEAD
     this.nuevaCita.emit(CITA);
+=======
+>>>>>>> 206594ba0dacb8752d71801d40773cde1dd3cf67
     this.resetCampos();
   }
 

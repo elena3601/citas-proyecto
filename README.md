@@ -16,9 +16,16 @@ Repositorio para proyecto de clase
   -Usuario administrador
  
 -Funcionalidades:
+<<<<<<< HEAD
 -Agendar citas
 -El administrador sera quien asigne citas a los usuarios
 -Establecer responsables
+=======
+-Agendar citas: 
+-login:Solo tendra acceso el administrador quien sera el encargado de agendar la cita.
+-Establecer responsables:En este caso los responsables seran quienes la redirijan.
+-Formulario:Este sera manipulado por el administrador en el cual se recopilara los siguientes datos de cada uno de los usuarios, nombre,fechanac,horario en que asistir y el motivo.
+>>>>>>> 206594ba0dacb8752d71801d40773cde1dd3cf67
   
 	-CRUD Operaciones fundamentales de aplicaciones persistentes en sistemas de bases de datos: 
 		Crear registros 
