@@ -8,8 +8,8 @@
         <p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
         <p class="card-text"><span>Fecha: </span>{{ cita.fecha }}</p>
         <p class="card-text"><span>Hora: </span>{{ cita.hora }}</p>
-        <p class="card-text"><span>Asunto: </span>{{ cita.asunto}}</p>
-       
+        <p class="card-text"><span>Asunto: </span>{{ cita.asunto }}</p>
+        <button style="width: 100;" class="btn btn-danger btn-block" (click)="eliminarCIta(i)">Eliminar</button>
     </div>
-    <button style="width: 100%;" class="btn btn-danger btn-block" (click)="eliminarCita(i)">ELIMINAR</button>
+    
 </div>
