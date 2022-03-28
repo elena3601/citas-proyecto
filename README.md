@@ -86,7 +86,7 @@ Rutas
 <button style="width: 100%;" (click)="agregarCita()" class="btn btn-primary btn-block">Agregar Cita</button>
 
 Al agregar la cita, se crea un recuadro con la información el cual se lleno el formulario 
-
+  <div>
 <div *ngFor="let cita of listadoCitas; let i = index" class="card mb-2">
     <div class="card-body">
         <p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
@@ -94,7 +94,8 @@ Al agregar la cita, se crea un recuadro con la información el cual se lleno el 
         <p class="card-text"><span>Hora: </span>{{ cita.hora }}</p>
         <p class="card-text"><span>Asunto: </span>{{ cita.asunto}}</p>
            </div>
-
+  </div>
+  
 Controllers
 
 Los controllers que utilizamos son muy básicos 
@@ -130,7 +131,7 @@ Enlasando a tituloClass en CSS
 
 Modelo de Formulario a utilizar (código fuente).. 
 
-  
+    <div>
 <h5 class="card-title text-center">Agregar Cita</h5>
 
         <div *ngIf ='formularioIncorrecto' class ='text-center'>
@@ -156,12 +157,13 @@ Modelo de Formulario a utilizar (código fuente)..
             <label for="asunto">Asunto:</label>
             <textarea id="Asunto" [(ngModel)]="asunto" rows="3" class="form-control" placeholder="Describa el asunto"></textarea>
         </div>
+          
 <button style="width: 100%;" (click)="agregarCita()" class="btn btn-primary btn-block">Agregar Cita</button>
     </div>
 </div>
 
 Modelo de como se vería el formulario ya enviado para agendar..
-
+  <div>
 <div *ngFor="let cita of listadoCitas; let i = index" class="card mb-2">
     <div class="card-body">
         <p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
