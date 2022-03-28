@@ -81,6 +81,96 @@ Angular es un framework para aplicaciones web desarrollado en TypeScript, de có
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
+Rutas
+
+<button style="width: 100%;" (click)="agregarCita()" class="btn btn-primary btn-block">Agregar Cita</button>
+
+Al agregar la cita, se crea un recuadro con la información el cual se lleno el formulario 
+
+<div *ngFor="let cita of listadoCitas; let i = index" class="card mb-2">
+    <div class="card-body">
+        <p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
+        <p class="card-text"><span>Fecha: </span>{{ cita.fecha }}</p>
+        <p class="card-text"><span>Hora: </span>{{ cita.hora }}</p>
+        <p class="card-text"><span>Asunto: </span>{{ cita.asunto}}</p>
+           </div>
+
+Controllers
+
+Los controllers que utilizamos son muy básicos 
+
+<p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
+
+Enlasando  span a un css 
+
+span {
+    font-weight: 600;
+}
+
+<div *ngIf="listadoCitas.length === 0" class="card bg-light">
+    <div class="card-body">
+        <h5 class="card-title text-center">No hay citas para mostrar</h5>
+    </div>
+
+Enlasando card en CSS
+
+.card{
+    margin: 0px 40px;
+}
+
+<div class="text-center tituloClass">APLICACION DE CITAS</div>
+
+Enlasando a tituloClass en CSS
+
+.tituloClass{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+Modelo de Formulario a utilizar (código fuente).. 
+
+<h5 class="card-title text-center">Agregar Cita</h5>
+
+        <div *ngIf ='formularioIncorrecto' class ='text-center'>
+            <span class="badge bg-danger">Todos los campos son obligatorios</span>
+        </div>
+        
+        <div class="form-group mb-3">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" [(ngModel)]="nombre" class="form-control" placeholder="Ingrese su nombre">
+        </div>
+        
+        <div class="form-group mb-3">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" [(ngModel)]="fecha" class="form-control">
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" [(ngModel)]="hora" class="form-control">
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="asunto">Asunto:</label>
+            <textarea id="Asunto" [(ngModel)]="asunto" rows="3" class="form-control" placeholder="Describa el asunto"></textarea>
+        </div>
+<button style="width: 100%;" (click)="agregarCita()" class="btn btn-primary btn-block">Agregar Cita</button>
+    </div>
+</div>
+
+Modelo de como se vería el formulario ya enviado para agendar..
+
+<div *ngFor="let cita of listadoCitas; let i = index" class="card mb-2">
+    <div class="card-body">
+        <p class="card-text"><span>Nombre: </span>{{ cita.nombre }}</p>
+        <p class="card-text"><span>Fecha: </span>{{ cita.fecha }}</p>
+        <p class="card-text"><span>Hora: </span>{{ cita.hora }}</p>
+        <p class="card-text"><span>Asunto: </span>{{ cita.asunto}}</p>
+       
+    </div>
+blob:https://web.whatsapp.com/c31a9d13-ee15-4fd1-9aa5-da220e7cf1f7
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
