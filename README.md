@@ -41,7 +41,8 @@ Repositorio para proyecto de clase
 	-Xampp
 
 # Propuesta del diseño de la base de datos
-- ![modelo de base de datos](https://user-images.githubusercontent.com/77304407/160256801-e453e393-5966-4233-88b4-9de08ff0e7d1.png)
+![Modelado de datos](https://user-images.githubusercontent.com/77304407/160508634-1311486d-bcdf-425a-9a19-d132de85cf97.png)
+
 # Componentes principales
 -Crear cita
 -Listar cita
